@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+    
+}
+body{
+    background: #003554;
+}
+header .navbar{
+
+    height: 70px;
+    width: 100%;
+    background-color: #0582CA;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+}
+header .navbar img{
+    height: 40px;
+    background: transparent;
+}
+header .navbar .search{
+    background-color: #fff;
+    height: 40px;
+    width: 470px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search ion-icon{
+    font-size: 30px;
+    color:black
+}
+.search label input{
+    height: 35px;
+    width: 400px;
+    font-size: 16px;
+    outline: 0;
+    background: transparent;
+    border: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.nav a{
+    color: #003554;
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.nav a::before{
+    content: '';
+    position: relative;
+    width: 100%;
+    height: 3px;
+    top: 25px;
+    right: 0;
+    background: #003554;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.nav a:hover::before{
+    transform: scaleX(1);
+    
+}
+section h2{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content{
+    height: 360px;
+    width: 250px;
+    background-color: aqua;
+    border: 2px solid black;
+    background-size: cover;
+}
+.content img{
+    background-size: cover;
+}
+.yourname{
+    height: 360px;
+    width: 250px;
+    background-color: aqua;
+    border: 2px solid black;
+    background-size: cover;
+    background: url(./posters/YOUR\ NAME.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.weather{
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+    background-size: cover;
+    background: url(./posters/weathering\ with\ you.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.pancreas{
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+    background-size: cover;
+    background: url(./posters/I\ Want\ To\ Eat\ Your\ Pancreas\ _\ Minimalist\ Poster.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.silent{
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+    background-size: cover;
+    background: url(./posters/Discover\ the\ Beauty\ of\ A\ Silent\ Voice\ Anime.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.tomako{
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+    background-size: cover;
+    background: url(./posters/Tamako\ love\ story.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.summer{
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+    background-size: cover;
+    background: url(./posters/The\ summer.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.suzume{
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+    background-size: cover;
+    background: url(./posters/Suzume\ Poster.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.hello-world{
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+    background-size: cover;
+    background: url(./posters/Hello\ World.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.jjk0{
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+    background-size: cover;
+    background: url(./posters/Jujutsu\ Kaisen\ 0\ Poster.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}
+.whisker{
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+    background-size: cover;
+    background: url(./posters/A\ Whisker\ Away.jpeg);
+    background-size: cover;
+    overflow: hidden;
+}

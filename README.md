@@ -4,11 +4,14 @@ Welcome to the **Anime Website** repository! 🎉 This project showcases a moder
 
 ---
 
+**Screenshot of the homepage**
 <img src="https://github.com/AJEESH8999/Anime_Website/blob/c0288cb9723f509b8ee3573da896254e98654c81/Screenshots/Screenshot%20(2).png?raw=true">
-*Screenshot of the homepage*
 
+
+
+
+**Showcasing interactive features**
 <img src="https://github.com/AJEESH8999/Anime_Website/blob/c0288cb9723f509b8ee3573da896254e98654c81/Screenshots/Screenshot%20(3).png?raw=true">
-*Showcasing interactive features*
 
 ---
 
